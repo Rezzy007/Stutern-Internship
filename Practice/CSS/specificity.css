@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(120deg, rgb(31, 31, 31), rgb(11, 11, 255), rgb(0, 187, 0), rgb(255, 17, 17));
+    background-size: cover;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#body{
+    width: 80%;
+    height: 80vh;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 0 50px;
+}
+
+#body h1{
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    width: 70%;
+    margin: 10px auto;
+    padding: 20px 0;
+}
+
+.column{
+    margin: 20px auto;
+    border: 5px solid blue;
+    border-style: dotted;
+    border-radius: 10px;
+    padding: 10px 30px;
+    width: 45%;
+    height: auto;
+    line-height: 1.8rem;
+}
+
+.column h2{
+    margin-bottom: 10px;
+}
+
+.column li{
+    font-size: 18px;
+}
